@@ -2,84 +2,47 @@
 
 
 Console.WriteLine("BIENVENIDO A MIS PROYECTOS");
-
-
-   //Pila.run(); 
-    
+Console.WriteLine();
+Console.WriteLine("torre de Hanoi");
+//Pila.run(); 
   
+       // Declarar e inicializar tres pilas
+        Stack<int> origen = new Stack<int>();
+        Stack<int> destino = new Stack<int>();
+        Stack<int> auxiliar = new Stack<int>();
+
+        // Agregar elementos a la pila de origen
+        origen.Push(4);
+        origen.Push(3);
+        origen.Push(2);
+        origen.Push(1);
+
+        // Mostrar las pilas iniciales
+        Console.WriteLine("Estado inicial:");
+        MostrarPilas(origen, destino, auxiliar);
+
+        // Mover fichas de origen a destino usando auxiliar
+        MoverFichas(origen.Count, origen, destino, auxiliar);
+
+        // Mostrar las pilas finales
+        Console.WriteLine("Estado final:");
+        MostrarPilas(origen, destino, auxiliar);
     
-        Stack<char> caracter = new Stack<char>();
-        // Fórmula matemática
-        string formula = "{8+(8*7)-[(9-3)+(2+1)]}";
 
-        bool estaBalanceada = true;
-
-        foreach (char caracterFormula in formula)
+    static void MoverFichas(int item, Stack<int> origen, Stack<int> destino, Stack<int> auxiliar)
+    {
+        if (item > 0)
         {
-            switch (caracterFormula)
-            {
-                // Caracteres de apertura
-                case '{':
-                case '[':
-                case '(':
-                    caracter.Push(caracterFormula);
-                    break;
-
-                // Caracteres de cierre
-                case '}':
-                case ']':
-                case ')':
-                    if (caracter.Count == 0)
-                    {
-                        estaBalanceada = false;
-                        break;
-                    }
-
-                    char apertura = caracter.Pop();
-                    switch (caracterFormula)
-                    {
-                        case '}':
-                            if (apertura != '{') estaBalanceada = false;
-                            break;
-
-                        case ']':
-                            if (apertura != '[') estaBalanceada = false;
-                            break;
-
-                        case ')':
-                            if (apertura != '(') estaBalanceada = false;
-                            break;
-                    }
-                    break;
-            }
-
-            if (!estaBalanceada) break;
+            MoverFichas(item - 1, origen, auxiliar, destino);
+            destino.Push(origen.Pop());
+            MoverFichas(item - 1, auxiliar, destino, origen);
         }
+    }
+
+    static void MostrarPilas(Stack<int> origen, Stack<int> destino, Stack<int> auxiliar)
+    {
+        Console.WriteLine(" A : " + string.Join(", ", origen));//Join:separar los elementos en una linea al ser imprimidos
+        Console.WriteLine(" B: " + string.Join(", ", destino));
+        Console.WriteLine(" Puente : " + string.Join(", ", auxiliar));
         Console.WriteLine();
-        // Mostrar caracteres de apertura y cierre en orden
-        Console.WriteLine("Caracteres de apertura y cierre en orden:");
-        foreach (char item in formula)
-        {
-            switch (item)
-            {
-                case '{':
-                case '}':
-                case '[':
-                case ']':
-                case '(':
-                case ')':
-                    Console.Write(item + " ");
-                    break;
-            }
-        }
-
-        // Verificar si la fórmula está balanceada
-        if (estaBalanceada && caracter.Count == 0)
-        {
-            Console.WriteLine("Respuesta: La fórmula está balanceada.");
-        }
-        else
-        {
-            Console.WriteLine("Respuesta: La fórmula NO está balanceada por desorden en símbolos de apertura o cierre.");
-        }
-        Console. WriteLine();
+    }
