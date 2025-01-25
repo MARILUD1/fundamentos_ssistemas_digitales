@@ -12,3 +12,4 @@ C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTO
 C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.pdb
 C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.genruntimeconfig.cache
 C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\ref\FSISTEMASDIGITALES.dll
+c:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.sourcelink.json
