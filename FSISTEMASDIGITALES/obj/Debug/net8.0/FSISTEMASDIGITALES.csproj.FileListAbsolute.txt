@@ -1,0 +1,14 @@
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\bin\Debug\net8.0\FSISTEMASDIGITALES.exe
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\bin\Debug\net8.0\FSISTEMASDIGITALES.deps.json
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\bin\Debug\net8.0\FSISTEMASDIGITALES.runtimeconfig.json
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\bin\Debug\net8.0\FSISTEMASDIGITALES.dll
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\bin\Debug\net8.0\FSISTEMASDIGITALES.pdb
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.dll
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\refint\FSISTEMASDIGITALES.dll
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.pdb
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\FSISTEMASDIGITALES.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive - Universidad Estatal Amazónica\Escritorio\FUNDAMENTOSSITEMASDIGITALES1\FSISTEMASDIGITALES\obj\Debug\net8.0\ref\FSISTEMASDIGITALES.dll
