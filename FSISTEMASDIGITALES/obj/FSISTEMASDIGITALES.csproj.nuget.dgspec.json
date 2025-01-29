@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj": {
+    "C:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj",
         "projectName": "FSISTEMASDIGITALES",
-        "projectPath": "c:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\FSISTEMASDIGITALES.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive - Universidad Estatal Amazónica\\Escritorio\\FUNDAMENTOSSITEMASDIGITALES1\\FSISTEMASDIGITALES\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
