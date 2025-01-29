@@ -1,90 +1,82 @@
-public static class Pila{
-public static void run()
-{ 
-Console.WriteLine("SEMANA7 STACK");
-Console.WriteLine("");
+
+// Console.WriteLine("SEMANA7 STACK");
+// Console.WriteLine("");
 
    
-        // Agregar caracteres de apertura y cierre a la pila
-    Stack<char> caracter = new Stack<char>();
-        // Fórmula matemática
-        string formula = "{8+(8*7)-[(9-3)+(2+1)]}";
+//         // Agregar caracteres de apertura y cierre a la pila
+//     Stack<char> caracter = new Stack<char>();
+//         // Fórmula matemática
+//         string formula = "{8+(8*7)-[(9-3)+(2+1)]}";
 
-        bool estaBalanceada = true;
+//         bool estaBalanceada = true;
 
-        foreach (char caracterFormula in formula)
-        {
-            switch (caracterFormula)
-            {
-                // Caracteres de apertura
-                case '{':
-                case '[':
-                case '(':
-                    caracter.Push(caracterFormula);
-                    break;
+//         foreach (char caracterFormula in formula)
+//         {
+//             switch (caracterFormula)
+//             {
+//                 // Caracteres de apertura
+//                 case '{':
+//                 case '[':
+//                 case '(':
+//                     caracter.Push(caracterFormula);
+//                     break;
 
-                // Caracteres de cierre
-                case '}':
-                case ']':
-                case ')':
-                    if (caracter.Count == 0)
-                    {
-                        estaBalanceada = false;
-                        break;
-                    }
+//                 // Caracteres de cierre
+//                 case '}':
+//                 case ']':
+//                 case ')':
+//                     if (caracter.Count == 0)
+//                     {
+//                         estaBalanceada = false;
+//                         break;
+//                     }
 
-                    char apertura = caracter.Pop();
-                    switch (caracterFormula)
-                    {
-                        case '}':
-                            if (apertura != '{') estaBalanceada = false;
-                            break;
+//                     char apertura = caracter.Pop();
+//                     switch (caracterFormula)
+//                     {
+//                         case '}':
+//                             if (apertura != '{') estaBalanceada = false;
+//                             break;
 
-                        case ']':
-                            if (apertura != '[') estaBalanceada = false;
-                            break;
+//                         case ']':
+//                             if (apertura != '[') estaBalanceada = false;
+//                             break;
 
-                        case ')':
-                            if (apertura != '(') estaBalanceada = false;
-                            break;
-                    }
-                    break;
-            }
+//                         case ')':
+//                             if (apertura != '(') estaBalanceada = false;
+//                             break;
+//                     }
+//                     break;
+//             }
 
-            if (!estaBalanceada) break;
-        }
-        Console.WriteLine();
-        // Mostrar caracteres de apertura y cierre en orden
-        Console.WriteLine("Caracteres de apertura y cierre en orden:");
-        foreach (char item in formula)
-        {
-            switch (item)
-            {
-                case '{':
-                case '}':
-                case '[':
-                case ']':
-                case '(':
-                case ')':
-                    Console.Write(item + " ");
-                    break;
-            }
-        }
+//             if (!estaBalanceada) break;
+//         }
+//         Console.WriteLine();
+//         // Mostrar caracteres de apertura y cierre en orden
+//         Console.WriteLine("Caracteres de apertura y cierre en orden:");
+//         foreach (char item in formula)
+//         {
+//             switch (item)
+//             {
+//                 case '{':
+//                 case '}':
+//                 case '[':
+//                 case ']':
+//                 case '(':
+//                 case ')':
+//                     Console.Write(item + " ");
+//                     break;
+//             }
+//         }
 
-        // Verificar si la fórmula está balanceada
-        if (estaBalanceada && caracter.Count == 0)
-        {
-            Console.WriteLine("Respuesta: La fórmula está balanceada.");
-        }
-        else
-        {
-            Console.WriteLine("Respuesta: La fórmula NO está balanceada por desorden en símbolos de apertura o cierre.");
-        }
-        Console. WriteLine();
-}}
-
-
-   
-  
-
+//         // Verificar si la fórmula está balanceada
+//         if (estaBalanceada && caracter.Count == 0)
+//         {
+//             Console.WriteLine("Respuesta: La fórmula está balanceada.");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Respuesta: La fórmula NO está balanceada por desorden en símbolos de apertura o cierre.");
+//         }
+//         Console. WriteLine();
        

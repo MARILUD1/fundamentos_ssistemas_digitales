@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FSISTEMASDIGITALES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c50a97cae8bbcf5900f515164e9f946aa3dd69d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2e57e89d43e15eaf3b7529c33674d13db2024f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("FSISTEMASDIGITALES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FSISTEMASDIGITALES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
